@@ -1,0 +1,97 @@
+//Colors and fonts//
+body {
+background-color: skyblue;
+color: red;
+font-family: courier;
+font-weight: 300;
+}
+h1 {
+	color: blueviolet;
+	font-family: helvetica;
+	font-weight: 200;
+	letter-spacing: 5px;
+	font-size: 80px;
+}
+h2 {
+	color: darkblue;
+	font-family: times new roman;
+	font-weight: 100;
+	font-size: 70px;
+}
+p { 
+	color: white;
+	font-family: times new roman;
+	font-weight: 80px;
+	font-size: 50px;
+ }
+ a {
+ 	text-decoration: none;
+ 	color: blueviolet;
+ }
+ a:hover {
+color: darkred;
+}
+div {
+	background-color: lightblue;
+	margin: 50px;
+	box-shadow: 0px 5px 10px;
+	border-radius: 7px;
+	margin: 50 px auto;
+ }
+ //Customs and designes//
+ 
+ .container {
+ 	width: 700px;
+ 	margin: 40px auto;
+ }
+
+ .card-blue {
+ background-color: lightskyblue;
+ padding: 40px;
+ box-shadow: 0px 10px 30px rgba(0, 0, 0, 0);
+ border-radius: 7px;
+ text-align: center;
+ }
+
+ .img-circle {
+ 	border-radius: 30%;
+ }
+
+.btn-red {
+	background-color: pink;
+	color: whitesmoke;
+	padding: 15px 20px;
+	border-radius: 7px;
+}
+.btn-red: hover {
+	background-color: purple;
+	color: whitesmoke;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+display: inline; 
+padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+ @media (max-width: 500px) {
+ 	.container {
+ 		width: 400px;
+ 		}
+ }
+
+}
+ @media (max-width: 760px) {
+ 	.container {
+ 		width: 600px;
+ 		}
+ }
+
+
+
